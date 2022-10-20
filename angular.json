@@ -69,7 +69,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "latest-angular:build:production",
-            "port": 443
+            "port": 8080
           },
           "configurations": {
             "production": {
