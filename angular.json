@@ -73,13 +73,14 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "devrelng:build:production"
+              "browserTarget": "devrelng:build:production",
+              "port": 8080
             },
             "development": {
               "browserTarget": "devrelng:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "production"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
